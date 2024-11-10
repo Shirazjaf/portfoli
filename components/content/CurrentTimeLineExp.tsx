@@ -5,39 +5,54 @@ import { Timeline, TimelineEvent } from './TimeLineExp';
 const CurrentTimeLineExp = () => {
   return (
     <Timeline>
-
       <TimelineEvent active>
-
-        <TimelineEvent.Title><a href='https://www.ia.com.mx' target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'>IA Interactive</a> | mar. 2023 - Currently</TimelineEvent.Title>
+        <TimelineEvent.Title>
+          <a
+            href="https://justkaretech.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white hover:underline transition-all ease"
+          >
+            Justkare Technologies - Mykare Health
+          </a>{' '}
+          | Oct. 2023 - Present
+        </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Frontend development and maintenance of projects implementing agile methodologies (Kanban in Jira) and best practices such as SOLID principles, pixel perfect, clean architecture, clean code using Jira, SCRUM practices, Git, GitFlow practices, Bitbucket, HTML, CSS, Pug, SASS, Tailwind, JavaScript, TypeScript, React, Next.js, Redux, Zustand, Jest and using microfrontends and Storybook to facilitate the use of reusable components.
+          Frontend development and maintenance of projects implementing agile
+          methodologies (Trello) and best practices such as SOLID principles,
+          pixel perfect, clean architecture, clean code using Jira, SCRUM
+          practices, Git, GitFlow practices, Bitbucket, HTML, CSS, SASS,
+          Tailwind, JavaScript, TypeScript, React, Next.js, Redux, Zustand and
+          using microfrontends to facilitate the use of reusable components.
         </TimelineEvent.Description>
-
       </TimelineEvent>
 
       <TimelineEvent>
-
-        <TimelineEvent.Title>Freelance | feb. 2022 - mar. 2023</TimelineEvent.Title>
+        <TimelineEvent.Title>
+          Ambrezent Technologies | 2022 - Mar. 2023
+        </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Design and development of web pages applying agile methodologies, clean architecture, SOLID principles and pixel perfect in all projects, I have developed almost all types of projects from Landing pages, stores, blogs and dashboards.
+          Design and development of web pages applying agile methodologies,
+          clean architecture, SOLID principles and pixel perfect in all
+          projects, I have developed almost all types of projects from Landing
+          pages, stores, blogs and dashboards.
         </TimelineEvent.Description>
-
       </TimelineEvent>
 
       <TimelineEvent last>
-
-        <TimelineEvent.Title>Studio Iluxion | may. 2022 - jul. 2022</TimelineEvent.Title>
+        <TimelineEvent.Title>
+          Full Stack Developer Intern | Mar. 2022 - Apr. 2022
+        </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Web designer and responsive web designer on projects using Figma, HTML, CSS, SCSS, SASS, Bootstrap, JavaScript, jQuery implementing SCRUM, pixel perfect and clean code.
+          Comprehensive Python Full Stack Internship: Received mentorship and
+          guidance while gaining hands-on experience in web development.
         </TimelineEvent.Description>
-
       </TimelineEvent>
-
     </Timeline>
-  )
+  );
 }
 
 export default CurrentTimeLineExp;
