@@ -14,32 +14,22 @@ const AboutSection = () => {
 
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
           <p className="text-base text-gray-400">
-            I am a passionate and versatile developer with over one years of
-            JavaScript experience and a constant interest in learning new
-            technologies. I am currently learning the path to be a Full Stack Developer and
-            master tools or practices such as "Linux, AWS, CI/CD, Docker,
-            Kubernetes, Jenkins and Terraform" to perform cost optimized,
-            reliable and secure full software delivery and maintenance.
+            I am a passionate self-taught developer with over a year of
+            JavaScript experience, striving to become a Full Stack Developer.
+            I’m mastering tools like Linux, AWS, CI/CD, Docker, and Terraform to
+            build efficient and secure solutions.
           </p>
 
           <p className="text-base text-gray-400">
-            I have a solid experience in web, mobile, and desktop Frontend
-            development, using frameworks and technologies such as "React,
-            Next.js, React Native". I also have skills in
-            Backend development with "Node", Express and MongoDB. UX design with
-            "Figma" always following the best practices of prototyping and
-            coding, clean architecture, "SOLID" principles, pixel perfect,
-            GitFlow, and agile methodologies.
+            With expertise in frontend frameworks like React, Next.js, and React
+            Native, and backend skills in Node.js, Express, and MongoDB, I
+            bridge design and development through Figma and follow best
+            practices like SOLID principles and clean architecture.
           </p>
 
           <p className="text-base text-gray-400">
-            In addition to my regular work, I also work on my own projects,
-            creating useful software or products from design and development to
-            deployment in AWS that contribute and help to solve problems or try
-            to solve them or give inspiration to the user connecting the AI to
-            an API and using the "Actions" of OpenAI or others, to give commands
-            and interact with the API and, finally, provide a result to the
-            user.
+            I also work on personal projects, leveraging AI and APIs to create
+            innovative solutions that solve problems and inspire users.
           </p>
         </AnimationContainer>
 

@@ -148,7 +148,7 @@ const Footer = () => {
             Contact
           </Link>
 
-          <ExternalLink href="https://rxresu.me/jeandv/cv-jean-rondon">
+          <ExternalLink href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"

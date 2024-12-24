@@ -19,12 +19,17 @@ const CurrentTimeLineExp = () => {
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Frontend development and maintenance of projects implementing agile
-          methodologies (Trello) and best practices such as SOLID principles,
-          pixel perfect, clean architecture, clean code using Jira, SCRUM
-          practices, Git, GitFlow practices, Bitbucket, HTML, CSS, SASS,
-          Tailwind, JavaScript, TypeScript, React, Next.js, Redux, Zustand and
-          using microfrontends to facilitate the use of reusable components.
+          Engineered and led the frontend development and maintenance of
+          projects, implementing agile methodologies like Trello and adhering to
+          best practices such as SOLID principles, pixel-perfect design, clean
+          architecture, and clean code. Utilized tools like Jira, SCRUM
+          practices, Git, GitFlow, and Bitbucket while leveraging technologies
+          such as HTML, CSS, SASS, Tailwind, JavaScript, TypeScript, React,
+          Next.js, Redux, and Zustand. Designed and developed microfrontend
+          architectures to enable reusable component development. Additionally,
+          engineered React Native mobile applications and contributed to
+          Python-based solutions to enhance project functionality and
+          scalability.
         </TimelineEvent.Description>
       </TimelineEvent>
 
@@ -34,10 +39,10 @@ const CurrentTimeLineExp = () => {
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Design and development of web pages applying agile methodologies,
-          clean architecture, SOLID principles and pixel perfect in all
-          projects, I have developed almost all types of projects from Landing
-          pages, stores, blogs and dashboards.
+          Designed and developed web pages using agile methodologies, clean
+          architecture, SOLID principles, and ensuring pixel-perfect execution
+          in all projects. I have worked on a wide range of projects, including
+          landing pages, e-commerce stores, blogs, and dashboards.
         </TimelineEvent.Description>
       </TimelineEvent>
 
@@ -53,6 +58,6 @@ const CurrentTimeLineExp = () => {
       </TimelineEvent>
     </Timeline>
   );
-}
+};
 
 export default CurrentTimeLineExp;
