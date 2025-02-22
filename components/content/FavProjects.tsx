@@ -21,14 +21,17 @@ const useStyles = createStyles((theme: any) => ({
     alignItems: 'flex-center',
     padding: '10px',
     backgroundSize: 'cover',
-    backgroundPosition: 'center'
+    // backgroundPosition: 'center'
+    backgroundRepeat: 'no-repeat'
   },
 
   title: {
     color: theme.white,
     lineHeight: 1.2,
-    fontSize: 32,
-    marginTop: theme.spacing.xs
+    fontSize: 22,
+    marginTop: theme.spacing.xs,
+    // background: 'rgba(0, 0, 0, 0.5)',
+    borderRadius: 4
   },
 
   category: {
@@ -111,15 +114,15 @@ const Card = ({ image, title, category, repo, link }: CardProps) => {
 const favProjects = [
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/587bf66c35c35c26dc6c20d85e9166d236227e29-1440x806.png',
-    title: 'Kare-Rewards',
-    category: 'MongoDB, Express.js, React, Node.js, Typescript, Git',
+      'https://res.cloudinary.com/dxtgzou4u/image/upload/v1740213513/kareai-cover-img_qqk46c.png',
+    title: 'Kare AI',
+    category: 'Nextjs, TypeScript, FastAPI, Python, MongoDB, OpenAI',
     repo: '',
-    link: 'http://3.111.131.19/karerewards/auth/login'
+    link: 'https://mykarehealth.com/kare-ai'
   },
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/9d452c28dc252302b90e6e2408b81ce3ed111957-1440x803.png',
+      'https://res.cloudinary.com/dxtgzou4u/image/upload/v1740212466/onboard-cover-img_hn5po3.png',
     title: 'Kareflow AI',
     category: 'React, TypeScript, Tailwind CSS',
     repo: '',
@@ -127,7 +130,7 @@ const favProjects = [
   },
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/bb12572785fdc98c304ff9823cab3f60bc16f8b7-1422x809.png',
+      'https://res.cloudinary.com/dxtgzou4u/image/upload/v1740213139/km-cover-img_vlmfvj.png',
     title: 'Karemitra - Mobile App',
     category: 'React Native, Typescript, Tailwind',
     repo: '',
@@ -135,31 +138,53 @@ const favProjects = [
   },
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/0844f66435c099fb020b8235657491a3166bd713-1280x800.png',
+      'https://res.cloudinary.com/dxtgzou4u/image/upload/v1740212468/mykare-app-cover-img_nclrai.png',
     title: 'Mykare Web',
-    category: 'React, Next.js, Strapi Backend, Tailwind CSS, TypeScript',
+    category: 'Next.js, Strapi , Tailwind , TypeScript',
     repo: '',
     link: 'https://mykarehealth.com/'
   },
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/5d3fb4c2893e2ab9a3667431696b0789f004177f-1428x807.png',
-    title: 'MisPelis',
-    category: 'React - JavaScript - CSS',
-    repo: 'https://mispelis.vercel.app',
-    link: ''
+      'https://res.cloudinary.com/dxtgzou4u/image/upload/v1740212465/cgc-cover-img_hf1hg1.png',
+    title: 'Chennai Gastro Care ',
+    category: 'Next.js, Tailwind , TypeScript, React Query, Zustand',
+    repo: '',
+    link: 'https://chennaigastrocare.in/'
   },
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/32f71c8c2225276c64e64ce86777c3df09a878e6-1426x807.png',
+      'https://res.cloudinary.com/dxtgzou4u/image/upload/v1740213139/km-cover-img_vlmfvj.png',
+    title: 'Karetrip',
+    category: 'Next.js, Strapi, Tailwind, TypeScript',
+    repo: 'https://karetrip.com/',
+    link: 'https://karetrip.com/'
+  },
+  {
+    image:
+      'https://res.cloudinary.com/dxtgzou4u/image/upload/v1740212467/pa-cover-img_tbkylu.png',
     title: 'My Dear Pa',
     category: 'React - JavaScript - Jest - Wouter',
     repo: '',
     link: 'https://mydearpa.com/'
+  },
+  {
+    image:
+      'https://res.cloudinary.com/dxtgzou4u/image/upload/v1740207868/employee_dashboard-cover_bxwe08.png',
+    title: 'Mykare Employee Dashboard',
+    category: 'React 19 - Tailwind CSS - TypeScript - React Query',
+    repo: '',
+    link: 'https://mykarehealth.com/partner/login'
+  },
+  {
+    image:
+      'https://cdn.sanity.io/images/jqaxrty6/production/587bf66c35c35c26dc6c20d85e9166d236227e29-1440x806.png',
+    title: 'Kare-Rewards',
+    category: 'MongoDB, Express.js, React, Node.js, Typescript, Git',
+    repo: '',
+    link: 'http://3.111.131.19/karerewards/auth/login'
   }
 ];
-
-const myGithub = 'https://github.com/jeandv';
 
 const FavProjects = () => {
   const theme = useMantineTheme();
